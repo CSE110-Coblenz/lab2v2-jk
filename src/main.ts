@@ -1,17 +1,9 @@
-// Import the printGuests function from guests.ts
-import { printGuests } from './guests';
+import { printSnacks } from './snacks';
 
-// Main function that demonstrates the guest list feature
-function main(): void {
-    console.log("=== Welcome to the Event Management System ===");
-    console.log();
-    
-    // Print out the guest list feature
-    printGuests();
-    
-    console.log();
-    console.log("=== End of Guest List ===");
+// Main function to demonstrate snacks feature
+function main() {
+    console.log("=== Welcome to the Snacks Feature ===");
+    printSnacks();
 }
 
-// Call the main function
 main();
