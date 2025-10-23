@@ -1,16 +1,16 @@
-// Import the printGuests function from guests.ts
-import { printGuests } from './guests';
+// Import the printMusic function from music/list.ts
+import { printMusic } from './music/list';
 
-// Main function that demonstrates the guest list feature
+// Main function that demonstrates the music feature
 function main(): void {
-    console.log("=== Welcome to the Event Management System ===");
+    console.log("=== Welcome to the Music Player ===");
     console.log();
     
-    // Print out the guest list feature
-    printGuests();
+    // Print out the music list feature
+    printMusic();
     
     console.log();
-    console.log("=== End of Guest List ===");
+    console.log("=== End of Music List ===");
 }
 
 // Call the main function
