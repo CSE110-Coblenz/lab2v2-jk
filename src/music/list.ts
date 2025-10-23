@@ -1,4 +1,6 @@
 // Define a list of music titles
+import { animateFeature } from '../animation';
+
 export const musicList: string[] = [
     "Bohemian Rhapsody - Queen",
     "Imagine - John Lennon",
@@ -14,6 +16,7 @@ export const musicList: string[] = [
 
 // Utility function to print music list to console
 export function printMusic(): void {
+    animateFeature("Music");
     console.log("Music List:");
     console.log("===========");
     musicList.forEach((song, index) => {
