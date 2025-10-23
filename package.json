@@ -1,0 +1,25 @@
+{
+  "name": "lab2v2-jk",
+  "version": "1.0.0",
+  "description": "Fresh repository with main branch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE110-Coblenz/lab2v2-jk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSE110-Coblenz/lab2v2-jk/issues"
+  },
+  "homepage": "https://github.com/CSE110-Coblenz/lab2v2-jk#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
