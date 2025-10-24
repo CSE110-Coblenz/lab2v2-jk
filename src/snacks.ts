@@ -1,8 +1,16 @@
 // Define a list of snack names
 export const snacks: string[] = [
     "Chips",
-    "Cookies"
-    // Intentionally reduced to 2 items to break the test
+    "Cookies",
+    "Candy",
+    "Popcorn",
+    "Nuts",
+    "Chocolate",
+    "Pretzels",
+    "Crackers",
+    "Fruit",
+    "Granola",
+    "Trail Mix"
 ];
 
 // Define and export a function that prints snacks to the console
