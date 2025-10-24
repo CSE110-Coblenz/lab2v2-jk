@@ -1,5 +1,5 @@
 // Define a list of snack names
-const snacks: string[] = [
+export const snacks: string[] = [
     "Chips",
     "Cookies",
     "Candy",

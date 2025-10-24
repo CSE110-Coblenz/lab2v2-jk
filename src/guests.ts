@@ -1,5 +1,5 @@
 // Define a list of guest names
-const guests: string[] = [
+export const guests: string[] = [
     "Alice Johnson",
     "Bob Smith",
     "Charlie Brown",

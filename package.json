@@ -1,0 +1,16 @@
+{
+  "name": "lab2v2-jk",
+  "version": "1.0.0",
+  "description": "CSE110 Lab 2 Project",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.23",
+    "typescript": "^5.9.3",
+    "vitest": "^1.6.1"
+  }
+}
